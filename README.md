@@ -1,6 +1,8 @@
+# Overview:
+
 A web-based application that allows users to submit feedback with a star rating, and enables administrators to view and export feedback data.
 
-Features:
+## Features:
 
   Dynamic feedback form with AJAX submission
   
@@ -12,7 +14,7 @@ Features:
   
   MySQL database integration using PHP
 
-Tech Stack:
+## Tech Stack:
 
   Frontend: HTML, CSS (Bootstrap), JavaScript, jQuery
   
@@ -22,7 +24,7 @@ Tech Stack:
   
   Others: AJAX for form submission, XAMPP for local server
 
-How to Run:
+## How to Run:
 
   Install XAMPP and start Apache and MySQL.
   
@@ -47,12 +49,12 @@ How to Run:
   Submit feedback and view it via:
   http://localhost/feedback_system/admin/dashboard.php
 
-Output:
+## Output:
 
   Feedback entries are stored in the feedback table in feedback_db.
   
   Admin can export all feedback as a .csv file.
 
-Author:
+## Author:
 
   Developed by Pradeep Kumar
