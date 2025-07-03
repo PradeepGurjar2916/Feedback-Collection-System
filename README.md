@@ -4,37 +4,36 @@ A web-based application that allows users to submit feedback with a star rating,
 
 ## Features:
 
-  Dynamic feedback form with AJAX submission
+- Dynamic feedback form with AJAX submission
   
-  Star rating system using jQuery RateYo plugin
+- Star rating system using jQuery RateYo plugin
   
-  Responsive admin dashboard to view all feedback
+- Responsive admin dashboard to view all feedback
   
-  Export feedback data to CSV
+- Export feedback data to CSV
   
-  MySQL database integration using PHP
+- MySQL database integration using PHP
 
 ## Tech Stack:
 
-  Frontend: HTML, CSS (Bootstrap), JavaScript, jQuery
+- **Frontend:** HTML, CSS (Bootstrap), JavaScript, jQuery
   
-  Backend: PHP, MySQL
+- **Backend:** PHP, MySQL
   
-  Plugins: jQuery RateYo (for star rating)
+- **Plugins:** jQuery RateYo (for star rating)
   
-  Others: AJAX for form submission, XAMPP for local server
+- **Others:** AJAX for form submission, XAMPP for local server
 
 ## How to Run:
 
-  Install XAMPP and start Apache and MySQL.
+- Install XAMPP and start Apache and MySQL.
   
-  Copy the feedback_system folder to C:/xampp/htdocs/.
+- Copy the feedback_system folder to C:/xampp/htdocs/.
   
-  Open phpMyAdmin, create a database named feedback_db, and run this SQL:
+- Open phpMyAdmin, create a database named feedback_db, and run this SQL:
   
-  sql
-  Copy
-  Edit
+- **sql:**
+
   CREATE TABLE feedback (
       id INT AUTO_INCREMENT PRIMARY KEY,
       name VARCHAR(100),
@@ -43,17 +42,17 @@ A web-based application that allows users to submit feedback with a star rating,
       rating DECIMAL(2,1),
       submitted_at DATETIME DEFAULT CURRENT_TIMESTAMP
   );
-  Open your browser and go to:
+- Open your browser and go to:
   http://localhost/feedback_system/index.html
   
-  Submit feedback and view it via:
+- Submit feedback and view it via:
   http://localhost/feedback_system/admin/dashboard.php
 
 ## Output:
 
-  Feedback entries are stored in the feedback table in feedback_db.
+- Feedback entries are stored in the feedback table in feedback_db.
   
-  Admin can export all feedback as a .csv file.
+- Admin can export all feedback as a .csv file.
 
 ## Author:
 
