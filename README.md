@@ -1,6 +1,7 @@
 A web-based application that allows users to submit feedback with a star rating, and enables administrators to view and export feedback data.
 
 Features:
+
   Dynamic feedback form with AJAX submission
   
   Star rating system using jQuery RateYo plugin
@@ -12,6 +13,7 @@ Features:
   MySQL database integration using PHP
 
 Tech Stack:
+
   Frontend: HTML, CSS (Bootstrap), JavaScript, jQuery
   
   Backend: PHP, MySQL
@@ -21,6 +23,7 @@ Tech Stack:
   Others: AJAX for form submission, XAMPP for local server
 
 How to Run:
+
   Install XAMPP and start Apache and MySQL.
   
   Copy the feedback_system folder to C:/xampp/htdocs/.
@@ -45,9 +48,11 @@ How to Run:
   http://localhost/feedback_system/admin/dashboard.php
 
 Output:
+
   Feedback entries are stored in the feedback table in feedback_db.
   
   Admin can export all feedback as a .csv file.
 
 Author:
+
   Developed by Pradeep Kumar
